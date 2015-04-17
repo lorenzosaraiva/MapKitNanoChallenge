@@ -13,6 +13,13 @@
 		0A726BA81ADFEEDA0080BA93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A726BA71ADFEEDA0080BA93 /* Images.xcassets */; };
 		0A726BAB1ADFEEDA0080BA93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A726BA91ADFEEDA0080BA93 /* LaunchScreen.xib */; };
 		0A726BB71ADFEEDA0080BA93 /* MapKitNanoChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A726BB61ADFEEDA0080BA93 /* MapKitNanoChallengeTests.swift */; };
+		0A726BC31ADFF36B0080BA93 /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A726BC21ADFF36B0080BA93 /* MyAnnotation.swift */; };
+		0A726BC71AE009310080BA93 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A726BC61AE009310080BA93 /* Firebase.framework */; };
+		0A726BC91AE0099B0080BA93 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A726BC81AE0099B0080BA93 /* libicucore.dylib */; };
+		0A726BCB1AE009A60080BA93 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A726BCA1AE009A60080BA93 /* libc++.dylib */; };
+		0A726BCD1AE009AB0080BA93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A726BCC1AE009AB0080BA93 /* CFNetwork.framework */; };
+		0A726BCF1AE009B00080BA93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A726BCE1AE009B00080BA93 /* Security.framework */; };
+		0A726BD11AE009B80080BA93 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A726BD01AE009B80080BA93 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,14 @@
 		0A726BB01ADFEEDA0080BA93 /* MapKitNanoChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitNanoChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A726BB51ADFEEDA0080BA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A726BB61ADFEEDA0080BA93 /* MapKitNanoChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitNanoChallengeTests.swift; sourceTree = "<group>"; };
+		0A726BC21ADFF36B0080BA93 /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+		0A726BC61AE009310080BA93 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		0A726BC81AE0099B0080BA93 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		0A726BCA1AE009A60080BA93 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0A726BCC1AE009AB0080BA93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0A726BCE1AE009B00080BA93 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0A726BD01AE009B80080BA93 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0A726BD81AE041170080BA93 /* MapKitNanoChallenge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapKitNanoChallenge-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A726BD11AE009B80080BA93 /* SystemConfiguration.framework in Frameworks */,
+				0A726BCF1AE009B00080BA93 /* Security.framework in Frameworks */,
+				0A726BCD1AE009AB0080BA93 /* CFNetwork.framework in Frameworks */,
+				0A726BCB1AE009A60080BA93 /* libc++.dylib in Frameworks */,
+				0A726BC91AE0099B0080BA93 /* libicucore.dylib in Frameworks */,
+				0A726BC71AE009310080BA93 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +80,11 @@
 		0A726B921ADFEEDA0080BA93 = {
 			isa = PBXGroup;
 			children = (
+				0A726BD01AE009B80080BA93 /* SystemConfiguration.framework */,
+				0A726BCE1AE009B00080BA93 /* Security.framework */,
+				0A726BCC1AE009AB0080BA93 /* CFNetwork.framework */,
+				0A726BCA1AE009A60080BA93 /* libc++.dylib */,
+				0A726BC81AE0099B0080BA93 /* libicucore.dylib */,
 				0A726B9D1ADFEEDA0080BA93 /* MapKitNanoChallenge */,
 				0A726BB31ADFEEDA0080BA93 /* MapKitNanoChallengeTests */,
 				0A726B9C1ADFEEDA0080BA93 /* Products */,
@@ -77,8 +103,10 @@
 		0A726B9D1ADFEEDA0080BA93 /* MapKitNanoChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				0A726BC61AE009310080BA93 /* Firebase.framework */,
 				0A726BA01ADFEEDA0080BA93 /* AppDelegate.swift */,
 				0A726BA21ADFEEDA0080BA93 /* ViewController.swift */,
+				0A726BC21ADFF36B0080BA93 /* MyAnnotation.swift */,
 				0A726BA41ADFEEDA0080BA93 /* Main.storyboard */,
 				0A726BA71ADFEEDA0080BA93 /* Images.xcassets */,
 				0A726BA91ADFEEDA0080BA93 /* LaunchScreen.xib */,
@@ -90,6 +118,7 @@
 		0A726B9E1ADFEEDA0080BA93 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0A726BD81AE041170080BA93 /* MapKitNanoChallenge-Bridging-Header.h */,
 				0A726B9F1ADFEEDA0080BA93 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -214,6 +243,7 @@
 			files = (
 				0A726BA31ADFEEDA0080BA93 /* ViewController.swift in Sources */,
 				0A726BA11ADFEEDA0080BA93 /* AppDelegate.swift in Sources */,
+				0A726BC31ADFF36B0080BA93 /* MyAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +372,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapKitNanoChallenge",
+				);
 				INFOPLIST_FILE = MapKitNanoChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapKitNanoChallenge-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +390,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapKitNanoChallenge",
+				);
 				INFOPLIST_FILE = MapKitNanoChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapKitNanoChallenge-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +456,7 @@
 				0A726BBC1ADFEEDA0080BA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A726BBD1ADFEEDA0080BA93 /* Build configuration list for PBXNativeTarget "MapKitNanoChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +465,7 @@
 				0A726BBF1ADFEEDA0080BA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
